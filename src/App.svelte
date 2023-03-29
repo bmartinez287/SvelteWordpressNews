@@ -1,6 +1,6 @@
 <script>
   let arrayofarticles = [];
-  fetch(document.utcitsveltewordpress.url, {
+  fetch(window.utcitsveltewordpress.url, {
     method: "PUT",
   })
     .then((response) => response.json())
@@ -18,7 +18,7 @@
 
 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
   {#each arrayofarticles as index}
-    {#if document.utcitsveltewordpresstwo.image} 
+    {#if window.utcitsveltewordpress.image} 
     <div class="bg-white shadow hover:bg-utc-new-blue-100 border-b-4 border-utc-new-gold-500">
       <a href={index.link} class="hover:bg-transparent text-utc-new-blue-500">
         <div class="text-center overflow-hidden">
