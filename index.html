@@ -11,9 +11,19 @@
 <body>
     <div id="app"></div>
     <script>
+        // document.utcitsveltewordpress.url = 'https://web.api.endpoints.utc.edu/api/wpcache/news'
+        //  document.utcitsveltewordpress.image = true
         document.utcitsveltewordpress = {
             url: 'https://blog.utc.edu/news/wp-json/wp/v2/posts?_embed&per_page=4&categories=741'
         }
+        document.utcitsveltewordpresstwo = {
+                image: false
+            }
+            // document.utcitsveltewordpress.image = true
+            // document.utcitsveltewordpress = {
+            //     url: 'https://web.api.endpoints.utc.edu/api/wpcache/news',
+            //     image: true
+            // }
     </script>
     <script type="module" src="/src/main.js"></script>
 </body>
