@@ -62,7 +62,7 @@
           {@html index._embedded['wp:term'][0][0].name}
           {/if}
         </div>
-      <div class="text-lg mb-1 pl-3">{@html index.title.rendered}</div>
+      <div class="text-lg mb-1 pl-3 font-normal">{@html index.title.rendered}</div>
       </div>
       <!-- {# <p> {{content.news_pubdate}} </p> #} -->
     </div>
